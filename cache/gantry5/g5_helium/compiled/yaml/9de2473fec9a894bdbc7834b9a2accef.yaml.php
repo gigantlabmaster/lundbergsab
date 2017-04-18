@@ -2,7 +2,7 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/user/data/gantry5/themes/g5_helium/config/home_-_particles/layout.yaml',
-    'modified' => 1491210004,
+    'modified' => 1492544805,
     'data' => [
         'version' => 2,
         'preset' => [
@@ -163,23 +163,15 @@ return [
                     'items' => [
                         0 => [
                             'image' => 'gantry-media://header/img01.jpg',
-                            'title' => 'Helium is here!',
-                            'desc' => 'Begin your journey with a brand new &raquo;free&laquo; Gantry 5 template from RocketTheme.',
+                            'title' => 'Vi tillverkar komprimatorer och kvarnsystem',
+                            'desc' => 'Komprimatorer | Kvarnsystem | Service',
                             'link' => 'http://gantry.org/downloads',
-                            'linktext' => 'Download Now',
+                            'linktext' => 'Kontakta Oss',
                             'buttonicon' => 'fa fa-rocket',
                             'buttonclass' => 'button-outline',
                             'name' => 'Item 1'
                         ],
-                        1 => [
-                            'image' => 'gantry-media://header/img02.jpg',
-                            'title' => 'Helium is Gantry powered!',
-                            'desc' => 'Helium is based on the powerful Gantry framework.',
-                            'link' => 'http://gantry.org/downloads',
-                            'linktext' => 'Download Now',
-                            'buttonclass' => 'button-outline',
-                            'name' => 'Item 2'
-                        ]
+                        1 => NULL
                     ]
                 ]
             ],
@@ -187,8 +179,8 @@ return [
                 'title' => 'Intro',
                 'attributes' => [
                     'html' => '<div class="fp-intro">
-    <h2 class="g-title">Build your beautiful theme, the way you want it, with Helium</h2>
-    <p>Craft memorable, emotive experiences with our Gantry 5 framework.</p>
+    <h2 class="g-title">Varför välja komprimatorer och kvarnsystem från Lundbergs?</h2>
+    <p>Svensktillverkat och svensktillverkat och svensktillverkat.</p>
     <div class="ipad-mockup">
         <img src="gantry-media://intro/mockup.png" alt="" />
     </div>
@@ -207,7 +199,7 @@ return [
             <div class="card">
                 <div class="card-block">
                     <i class="fa fa-joomla"></i>
-                    <h4 class="card-title">Joomla</h4>
+                    <h4 class="card-title">Svensktillverkat</h4>
                     <p class="card-text">Bring your website to life with one of the most powerful and popular theming frameworks for Joomla.</p>
                 </div>
             </div>
@@ -216,7 +208,7 @@ return [
             <div class="card">
                 <div class="card-block">
                     <i class="fa fa-wordpress"></i>
-                    <h4 class="card-title">WordPress</h4>
+                    <h4 class="card-title">Specialanpassat</h4>
                     <p class="card-text">Gantry extends WordPress\' native functionality, empowering users to manipulate virtually every aspect of their visitors\' experience.</p>
                 </div>
             </div>
@@ -225,7 +217,7 @@ return [
             <div class="card">
                 <div class="card-block">
                     <i class="fa fa-grav"></i>
-                    <h4 class="card-title">Grav</h4>
+                    <h4 class="card-title">Service</h4>
                     <p class="card-text">Gantry 5 is the first theming framework for Grav, designed by members of the same team that developed the CMS.</p>
                 </div>
             </div>
