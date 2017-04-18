@@ -14,7 +14,7 @@ process:
 markdown:
     extra: true
 gantry:
-  outline: offline_page
+    outline: offline_page
 ---
 
 ![](image://rocketlauncher/pages/offline/offline.jpg)

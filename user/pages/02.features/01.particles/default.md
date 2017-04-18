@@ -12,7 +12,7 @@ process:
     markdown: true
     twig: false
 markdown:
-  extra: true
+    extra: true
 ---
 
 ##Particles {.entry-title}

@@ -2,21 +2,132 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/user/data/gantry5/themes/g5_helium/config/menu/mainmenu.yaml',
-    'modified' => 1491210004,
+    'modified' => 1492545755,
     'data' => [
-        'title' => 'Helium Theme',
-        'description' => 'Sample menu for Helium theme.',
-        'items' => [
+        'settings' => [
+            'title' => 'Mainmenu'
+        ],
+        'ordering' => [
+            'home' => '',
+            'features' => [
+                'particles' => '',
+                'block-variations' => '',
+                'typography' => '',
+                'documentation' => '',
+                'download' => ''
+            ],
+            'pages' => [
+                'modular' => '',
+                'blog' => '',
+                'error' => '',
+                'offline-page' => ''
+            ],
+            'sample-layouts' => [
+                'full-width' => '',
+                'left-sidebar' => '',
+                'right-sidebar' => '',
+                'two-sidebars' => '',
+                'two-sidebars-left' => '',
+                'two-sidebars-right' => '',
+                'rows-columns' => ''
+            ],
             'styles' => [
-                'type' => 'separator',
+                '__particle-2IjaB' => ''
+            ]
+        ],
+        'items' => [
+            'home' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'features' => [
+                'enabled' => '0',
+                'dropdown_dir' => 'right',
+                'dropdown_hide' => '0',
+                'width' => 'auto'
+            ],
+            'features/particles' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'features/block-variations' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'features/typography' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'features/documentation' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'features/download' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'pages' => [
+                'enabled' => '0',
+                'dropdown_dir' => 'right',
+                'dropdown_hide' => '0',
+                'width' => 'auto'
+            ],
+            'pages/modular' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'pages/blog' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'pages/error' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'pages/offline-page' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'sample-layouts' => [
+                'enabled' => '0',
+                'dropdown_dir' => 'right',
+                'dropdown_hide' => '0',
+                'width' => 'auto'
+            ],
+            'sample-layouts/full-width' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'sample-layouts/left-sidebar' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'sample-layouts/right-sidebar' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'sample-layouts/two-sidebars' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'sample-layouts/two-sidebars-left' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'sample-layouts/two-sidebars-right' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'sample-layouts/rows-columns' => [
+                'enabled' => true,
+                'anchor_class' => ''
+            ],
+            'styles' => [
+                'enabled' => '0',
                 'dropdown' => 'standard',
                 'dropdown_dir' => 'center',
                 'dropdown_hide' => '0',
-                'width' => '35rem',
-                'columns' => [
-                    0 => 100
-                ],
-                'title' => 'Styles'
+                'width' => '35rem'
             ],
             'styles/__particle-2IjaB' => [
                 'type' => 'particle',
@@ -87,7 +198,9 @@ return [
                             
                         ]
                     ]
-                ]
+                ],
+                'enabled' => true,
+                'anchor_class' => ''
             ]
         ]
     ]
