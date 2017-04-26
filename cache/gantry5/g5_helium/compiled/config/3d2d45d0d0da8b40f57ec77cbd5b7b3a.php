@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1492543777,
-    'checksum' => '292cba2a2ca5ce953af33d850b220be0',
+    'timestamp' => 1493220890,
+    'checksum' => 'afbc58ef59621b1a5bdaef37bfc1e6bc',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/two_sidebars_left' => [
             'assignments' => [
@@ -33,87 +33,87 @@ return [
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/search' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/search.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1492543765
+                'modified' => 1493220878
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -206,7 +206,7 @@ return [
                 ],
                 'enabled' => '1',
                 'nav' => 'disable',
-                'dots' => 'enable',
+                'dots' => 'disable',
                 'autoplay' => 'disable',
                 'imageOverlay' => 'enable',
                 'class' => '',
@@ -247,7 +247,7 @@ return [
                 'url' => '',
                 'image' => '',
                 'svg' => '<?xml version="1.0" encoding="UTF-8"?>
-<svg width="164px" height="32px" viewBox="0 0 327 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="164px" height="72px" viewBox="0 0 327 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
     <title>Lundbergs_logo_tagline_center_grey_vect</title>
     <desc>Created with Sketch.</desc>
@@ -310,22 +310,16 @@ return [
                 'title' => '',
                 'items' => [
                     0 => [
-                        'icon' => 'fa fa-twitter fa-fw',
-                        'text' => '',
-                        'link' => 'http://www.twitter.com/rockettheme',
-                        'name' => 'Twitter'
-                    ],
-                    1 => [
                         'icon' => 'fa fa-facebook fa-fw',
                         'text' => '',
                         'link' => 'http://www.facebook.com/RocketTheme',
                         'name' => 'Facebook'
                     ],
-                    2 => [
-                        'icon' => 'fa fa-google-plus fa-fw',
+                    1 => [
+                        'icon' => 'fa fa-linkedin',
                         'text' => '',
-                        'link' => 'https://plus.google.com/+rockettheme',
-                        'name' => 'Google+'
+                        'link' => '',
+                        'name' => 'Linkedin'
                     ]
                 ]
             ],
@@ -468,15 +462,15 @@ return [
         'styles' => [
             'above' => [
                 'background' => '#f4f5f7',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'accent' => [
-                'color-1' => '#a8a7a7',
-                'color-2' => '#474747'
+                'color-1' => '#4db2b3',
+                'color-2' => '#8f4dae'
             ],
             'base' => [
                 'background' => '#ffffff',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'breakpoints' => [
                 'large-desktop-container' => '75rem',
@@ -487,60 +481,60 @@ return [
             ],
             'expanded' => [
                 'background' => '#ffffff',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'features' => [
                 'background' => '#ffffff',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'font' => [
                 'family-default' => 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif',
                 'family-title' => 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
             ],
             'footer' => [
-                'background' => '#474747',
+                'background' => '#312f38',
                 'text-color' => '#ffffff'
             ],
             'header' => [
-                'background' => '#474747',
+                'background' => '#312f38',
                 'background-image' => 'gantry-media://header/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
             ],
             'intro' => [
                 'background' => '#f4f5f7',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'link' => [
-                'regular' => '#a8a7a7',
-                'hover' => '#2a363b'
+                'regular' => '#4db2b3',
+                'hover' => '#424753'
             ],
             'menu' => [
                 'col-width' => '180px',
                 'animation' => 'g-fade'
             ],
             'navigation' => [
-                'background' => '#474747',
+                'background' => '#312f38',
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '#474747',
+                'background' => '#4db2b3',
                 'text-color' => '#eceeef',
-                'toggle-color' => '#a8a7a7',
+                'toggle-color' => '#4db2b3',
                 'toggle-visibility' => '1',
                 'width' => '12rem'
             ],
             'testimonials' => [
-                'background' => '#a8a7a7',
+                'background' => '#8f4dae',
                 'background-image' => 'gantry-media://testimonials/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
             ],
             'utility' => [
-                'background' => '#474747',
+                'background' => '#424753',
                 'text-color' => '#ffffff'
             ],
-            'preset' => 'preset5'
+            'preset' => 'preset1'
         ],
         'page' => [
             'assets' => [

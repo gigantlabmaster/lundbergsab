@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1492545123,
-    'checksum' => '1db0e41e40eea043261877b7f25f9ba2',
+    'timestamp' => 1493220884,
+    'checksum' => '7901e331a860782207405e6b9df744ab',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/home_-_particles' => [
             'assignments' => [
@@ -113,7 +113,7 @@ return [
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-                'modified' => 1492543765
+                'modified' => 1493220878
             ]
         ],
         'user/themes/g5_helium/config/default' => [
@@ -462,15 +462,15 @@ return [
         'styles' => [
             'above' => [
                 'background' => '#f4f5f7',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'accent' => [
-                'color-1' => '#a8a7a7',
-                'color-2' => '#474747'
+                'color-1' => '#4db2b3',
+                'color-2' => '#8f4dae'
             ],
             'base' => [
                 'background' => '#ffffff',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'breakpoints' => [
                 'large-desktop-container' => '75rem',
@@ -481,60 +481,60 @@ return [
             ],
             'expanded' => [
                 'background' => '#ffffff',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'features' => [
                 'background' => '#ffffff',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'font' => [
                 'family-default' => 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif',
                 'family-title' => 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
             ],
             'footer' => [
-                'background' => '#474747',
+                'background' => '#312f38',
                 'text-color' => '#ffffff'
             ],
             'header' => [
-                'background' => '#474747',
+                'background' => '#312f38',
                 'background-image' => 'gantry-media://header/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
             ],
             'intro' => [
                 'background' => '#f4f5f7',
-                'text-color' => '#2a363b'
+                'text-color' => '#424753'
             ],
             'link' => [
-                'regular' => '#a8a7a7',
-                'hover' => '#2a363b'
+                'regular' => '#4db2b3',
+                'hover' => '#424753'
             ],
             'menu' => [
                 'col-width' => '180px',
                 'animation' => 'g-fade'
             ],
             'navigation' => [
-                'background' => '#474747',
+                'background' => '#312f38',
                 'text-color' => '#ffffff'
             ],
             'offcanvas' => [
-                'background' => '#474747',
+                'background' => '#4db2b3',
                 'text-color' => '#eceeef',
-                'toggle-color' => '#a8a7a7',
+                'toggle-color' => '#4db2b3',
                 'toggle-visibility' => '1',
                 'width' => '12rem'
             ],
             'testimonials' => [
-                'background' => '#a8a7a7',
+                'background' => '#8f4dae',
                 'background-image' => 'gantry-media://testimonials/img01.jpg',
                 'background-overlay' => 'enabled',
                 'text-color' => '#eceeef'
             ],
             'utility' => [
-                'background' => '#474747',
+                'background' => '#424753',
                 'text-color' => '#ffffff'
             ],
-            'preset' => 'preset5'
+            'preset' => 'preset1'
         ],
         'page' => [
             'assets' => [

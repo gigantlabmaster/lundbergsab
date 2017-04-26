@@ -2,69 +2,69 @@
 return [
     '@class' => 'Gantry\\Component\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
-    'modified' => 1492543765,
+    'modified' => 1493220878,
     'data' => [
-        'preset' => 'preset5',
+        'preset' => 'preset1',
         'base' => [
             'background' => '#ffffff',
-            'text-color' => '#2a363b'
+            'text-color' => '#424753'
         ],
         'accent' => [
-            'color-1' => '#a8a7a7',
-            'color-2' => '#474747'
+            'color-1' => '#4db2b3',
+            'color-2' => '#8f4dae'
         ],
         'font' => [
             'family-default' => 'Raleway, Helvetica, Tahoma, Geneva, Arial, sans-serif',
             'family-title' => 'Lato, Helvetica, Tahoma, Geneva, Arial, sans-serif'
         ],
         'link' => [
-            'regular' => '#a8a7a7',
-            'hover' => '#2a363b'
+            'regular' => '#4db2b3',
+            'hover' => '#424753'
         ],
         'navigation' => [
-            'background' => '#474747',
+            'background' => '#312f38',
             'text-color' => '#ffffff'
         ],
         'header' => [
-            'background' => '#474747',
+            'background' => '#312f38',
             'background-image' => 'gantry-media://header/img01.jpg',
             'background-overlay' => 'enabled',
             'text-color' => '#eceeef'
         ],
         'intro' => [
             'background' => '#f4f5f7',
-            'text-color' => '#2a363b'
+            'text-color' => '#424753'
         ],
         'features' => [
             'background' => '#ffffff',
-            'text-color' => '#2a363b'
+            'text-color' => '#424753'
         ],
         'utility' => [
-            'background' => '#474747',
+            'background' => '#424753',
             'text-color' => '#ffffff'
         ],
         'above' => [
             'background' => '#f4f5f7',
-            'text-color' => '#2a363b'
+            'text-color' => '#424753'
         ],
         'testimonials' => [
-            'background' => '#a8a7a7',
+            'background' => '#8f4dae',
             'background-image' => 'gantry-media://testimonials/img01.jpg',
             'background-overlay' => 'enabled',
             'text-color' => '#eceeef'
         ],
         'expanded' => [
             'background' => '#ffffff',
-            'text-color' => '#2a363b'
+            'text-color' => '#424753'
         ],
         'footer' => [
-            'background' => '#474747',
+            'background' => '#312f38',
             'text-color' => '#ffffff'
         ],
         'offcanvas' => [
-            'background' => '#474747',
+            'background' => '#4db2b3',
             'text-color' => '#eceeef',
-            'toggle-color' => '#a8a7a7',
+            'toggle-color' => '#4db2b3',
             'toggle-visibility' => '1',
             'width' => '12rem'
         ],
