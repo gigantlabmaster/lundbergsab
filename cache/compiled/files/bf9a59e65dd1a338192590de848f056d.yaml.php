@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/system/blueprints/user/account.yaml',
-    'modified' => 1492544750,
+    'modified' => 1493220537,
     'data' => [
         'title' => 'Account',
         'form' => [
@@ -48,7 +48,7 @@ return [
                     'validate' => [
                         'required' => false,
                         'message' => 'PLUGIN_ADMIN.PASSWORD_VALIDATION_MESSAGE',
-                        'pattern' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}'
+                        'config-pattern@' => 'system.pwd_regex'
                     ]
                 ],
                 'fullname' => [

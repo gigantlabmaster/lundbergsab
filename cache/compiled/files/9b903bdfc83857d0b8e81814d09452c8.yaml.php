@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/user/plugins/simplesearch/simplesearch.yaml',
-    'modified' => 1491210036,
+    'modified' => 1493220656,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -14,7 +14,7 @@ return [
             'category' => 'blog'
         ],
         'filter_combinator' => 'and',
-        'ignore_accented_characters' => true,
+        'ignore_accented_characters' => false,
         'order' => [
             'by' => 'date',
             'dir' => 'desc'

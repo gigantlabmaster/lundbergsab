@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1492544751,
-    'checksum' => '3c8f32fee2733fc14f0757ed18d5b198',
+    'timestamp' => 1493220661,
+    'checksum' => 'c0298a5a4567fbe7801b7ad46390a768',
     'files' => [
         'user/config' => [
             'media' => [
@@ -33,25 +33,25 @@ return [
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1492544750
+                'modified' => 1493220537
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1492544750
+                'modified' => 1493220537
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1492544750
+                'modified' => 1493220537
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1492544750
+                'modified' => 1493220537
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1491210022
+                'modified' => 1493220661
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -63,7 +63,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
-                'modified' => 1491210034
+                'modified' => 1493220648
             ],
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/gantry5.yaml',
@@ -71,7 +71,7 @@ return [
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1491210036
+                'modified' => 1493220652
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
@@ -87,7 +87,7 @@ return [
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/simplesearch.yaml',
-                'modified' => 1491210036
+                'modified' => 1493220656
             ]
         ]
     ],
@@ -100,6 +100,7 @@ return [
                 'theme' => 'grav',
                 'logo_text' => '',
                 'body_classes' => '',
+                'content_padding' => true,
                 'sidebar' => [
                     'activate' => 'tab',
                     'hover_delay' => 100,
@@ -203,11 +204,12 @@ return [
                 'enabled' => true,
                 'built_in_css' => true,
                 'route' => NULL,
+                'redirect_after_login' => NULL,
                 'route_register' => false,
                 'route_activate' => '/activate_user',
                 'route_forgot' => '/forgot_password',
                 'route_reset' => '/reset_password',
-                'redirect_after_login' => NULL,
+                'route_profile' => '/user_profile',
                 'parent_acl' => false,
                 'protect_protected_page_media' => false,
                 'user_registration' => [
@@ -237,7 +239,11 @@ return [
                     'enabled' => true,
                     'timeout' => 604800,
                     'name' => 'grav-rememberme'
-                ]
+                ],
+                'max_pw_resets_count' => 0,
+                'max_pw_resets_interval' => 60,
+                'max_login_count' => 0,
+                'max_login_interval' => 2
             ],
             'markdown-notices' => [
                 'enabled' => true,
@@ -269,7 +275,7 @@ return [
                     'category' => 'blog'
                 ],
                 'filter_combinator' => 'and',
-                'ignore_accented_characters' => true,
+                'ignore_accented_characters' => false,
                 'order' => [
                     'by' => 'date',
                     'dir' => 'desc'
@@ -592,6 +598,8 @@ return [
             'reverse_proxy_setup' => false,
             'force_ssl' => false,
             'custom_base_url' => '',
+            'username_regex' => '^[a-z0-9_-]{3,16}$',
+            'pwd_regex' => '(?=.*\\d)(?=.*[a-z])(?=.*[A-Z]).{8,}',
             'languages' => [
                 'supported' => [
                     

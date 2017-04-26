@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/user/plugins/admin/languages/en.yaml',
-    'modified' => 1491210022,
+    'modified' => 1493220661,
     'data' => [
         'PLUGIN_ADMIN' => [
             'ADMIN_BETA_MSG' => 'This is a Beta release! Use this in production at your own risk...',
@@ -668,7 +668,15 @@ return [
             'UNSORTABLE_PAGES' => 'Unsortable Pages:',
             'ADMIN_SPECIFIC_OVERRIDES' => 'Admin Specific Overrides',
             'ADMIN_CHILDREN_DISPLAY_ORDER' => 'Children Display Order',
-            'ADMIN_CHILDREN_DISPLAY_ORDER_HELP' => 'The order that children of this page should be displayed in the \'Pages\' view of Admin plugin'
+            'ADMIN_CHILDREN_DISPLAY_ORDER_HELP' => 'The order that children of this page should be displayed in the \'Pages\' view of Admin plugin',
+            'PWD_PLACEHOLDER' => 'complex string at least 8 chars long',
+            'PWD_REGEX' => 'Password Regex',
+            'PWD_REGEX_HELP' => 'By default: Password must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters',
+            'USERNAME_PLACEHOLDER' => 'lowercase chars only, e.g. \'admin\'',
+            'USERNAME_REGEX' => 'Username Regex',
+            'USERNAME_REGEX_HELP' => 'By default: Only lowercase chars, digits, dashes, and underscores. 3 - 16 chars',
+            'CONTENT_PADDING' => 'Content padding',
+            'CONTENT_PADDING_HELP' => 'Enable/Disable content padding around content area to provide more space'
         ]
     ]
 ];

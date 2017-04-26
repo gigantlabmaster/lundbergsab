@@ -1,31 +1,31 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1492544751,
-    'checksum' => '798ca63d47d2629e0c2999718270cb27',
+    'timestamp' => 1493220661,
+    'checksum' => '4896ba203d3920ec4cfd2dc8c96b6008',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
                 'file' => 'system/blueprints/config/media.yaml',
-                'modified' => 1492544750
+                'modified' => 1493220537
             ],
             'site' => [
                 'file' => 'system/blueprints/config/site.yaml',
-                'modified' => 1492544750
+                'modified' => 1493220537
             ],
             'streams' => [
                 'file' => 'system/blueprints/config/streams.yaml',
-                'modified' => 1492544750
+                'modified' => 1493220537
             ],
             'system' => [
                 'file' => 'system/blueprints/config/system.yaml',
-                'modified' => 1492544750
+                'modified' => 1493220537
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1491210022
+                'modified' => 1493220661
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
@@ -37,7 +37,7 @@ return [
             ],
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
-                'modified' => 1491210034
+                'modified' => 1493220648
             ],
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/blueprints.yaml',
@@ -45,7 +45,7 @@ return [
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
-                'modified' => 1491210036
+                'modified' => 1493220652
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
@@ -61,7 +61,7 @@ return [
             ],
             'plugins/simplesearch' => [
                 'file' => 'user/plugins/simplesearch/blueprints.yaml',
-                'modified' => 1491210036
+                'modified' => 1493220656
             ]
         ]
     ],
@@ -236,12 +236,13 @@ return [
             ],
             'system.home.alias' => [
                 'type' => 'pages',
-                'size' => 'medium',
+                'size' => 'large',
                 'classes' => 'fancy',
                 'label' => 'PLUGIN_ADMIN.HOME_PAGE',
                 'show_all' => false,
                 'show_modular' => false,
                 'show_root' => false,
+                'show_slug' => true,
                 'name' => 'system.home.alias',
                 'validation' => 'loose'
             ],
@@ -1622,6 +1623,20 @@ return [
                 'name' => 'system.reverse_proxy_setup',
                 'validation' => 'loose'
             ],
+            'system.username_regex' => [
+                'type' => 'text',
+                'size' => 'large',
+                'label' => 'PLUGIN_ADMIN.USERNAME_REGEX',
+                'name' => 'system.username_regex',
+                'validation' => 'loose'
+            ],
+            'system.pwd_regex' => [
+                'type' => 'text',
+                'size' => 'large',
+                'label' => 'PLUGIN_ADMIN.PWD_REGEX',
+                'name' => 'system.pwd_regex',
+                'validation' => 'loose'
+            ],
             'system.wrapped_site' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_ADMIN.WRAPPED_SITE',
@@ -1749,6 +1764,20 @@ return [
                 'label' => 'Logo text',
                 'size' => 'medium',
                 'name' => 'plugins.admin.logo_text',
+                'validation' => 'loose'
+            ],
+            'plugins.admin.content_padding' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.CONTENT_PADDING',
+                'highlight' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.YES',
+                    0 => 'PLUGIN_ADMIN.NO'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.admin.content_padding',
                 'validation' => 'loose'
             ],
             'plugins.admin.body_classes' => [
@@ -2654,6 +2683,27 @@ return [
                 'name' => 'plugins.login.redirect_after_login',
                 'validation' => 'loose'
             ],
+            'plugins.login.route_forgot' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'PLUGIN_LOGIN.ROUTE_FORGOT',
+                'name' => 'plugins.login.route_forgot',
+                'validation' => 'loose'
+            ],
+            'plugins.login.route_reset' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'PLUGIN_LOGIN.ROUTE_RESET',
+                'name' => 'plugins.login.route_reset',
+                'validation' => 'loose'
+            ],
+            'plugins.login.route_profile' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'PLUGIN_LOGIN.ROUTE_PROFILE',
+                'name' => 'plugins.login.route_profile',
+                'validation' => 'loose'
+            ],
             'plugins.login.parent_acl' => [
                 'type' => 'toggle',
                 'label' => 'PLUGIN_LOGIN.USE_PARENT_ACL_LABEL',
@@ -2899,7 +2949,6 @@ return [
                     1 => 'PLUGIN_ADMIN.YES',
                     0 => 'PLUGIN_ADMIN.NO'
                 ],
-                'validate' => NULL,
                 'name' => 'plugins.login.user_registration.options.send_welcome_email',
                 'validation' => 'loose'
             ],
@@ -2911,6 +2960,59 @@ return [
             'plugins.login.registration' => [
                 'type' => 'tab',
                 'name' => 'plugins.login.registration',
+                'validation' => 'loose'
+            ],
+            'plugins.login.max_pw_resets_count' => [
+                'type' => 'number',
+                'size' => 'x-small',
+                'label' => 'PLUGIN_LOGIN.MAX_RESETS_COUNT',
+                'append' => 'PLUGIN_LOGIN.RESETS',
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 0
+                ],
+                'name' => 'plugins.login.max_pw_resets_count',
+                'validation' => 'loose'
+            ],
+            'plugins.login.max_pw_resets_interval' => [
+                'type' => 'number',
+                'size' => 'x-small',
+                'label' => 'PLUGIN_LOGIN.MAX_RESETS_INTERVAL',
+                'append' => 'PLUGIN_LOGIN.SECONDS',
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 1
+                ],
+                'name' => 'plugins.login.max_pw_resets_interval',
+                'validation' => 'loose'
+            ],
+            'plugins.login.max_login_count' => [
+                'type' => 'number',
+                'size' => 'x-small',
+                'label' => 'PLUGIN_LOGIN.MAX_LOGINS_COUNT',
+                'append' => 'PLUGIN_LOGIN.ATTEMPTS',
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 0
+                ],
+                'name' => 'plugins.login.max_login_count',
+                'validation' => 'loose'
+            ],
+            'plugins.login.max_login_interval' => [
+                'type' => 'number',
+                'size' => 'x-small',
+                'label' => 'PLUGIN_LOGIN.MAX_LOGINS_INTERVAL',
+                'append' => 'PLUGIN_LOGIN.SECONDS',
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 1
+                ],
+                'name' => 'plugins.login.max_login_interval',
+                'validation' => 'loose'
+            ],
+            'plugins.login.Security' => [
+                'type' => 'tab',
+                'name' => 'plugins.login.Security',
                 'validation' => 'loose'
             ],
             'plugins.login.tabs' => [
@@ -3108,7 +3210,7 @@ return [
             ],
             'plugins.simplesearch.ignore_accented_characters' => [
                 'type' => 'toggle',
-                'label' => 'Ignote accented characters',
+                'label' => 'Ignore accented characters',
                 'highlight' => 0,
                 'default' => 0,
                 'options' => [
@@ -3384,6 +3486,8 @@ return [
                     'verify_peer' => 'system.gpm.verify_peer'
                 ],
                 'reverse_proxy_setup' => 'system.reverse_proxy_setup',
+                'username_regex' => 'system.username_regex',
+                'pwd_regex' => 'system.pwd_regex',
                 'wrapped_site' => 'system.wrapped_site',
                 'absolute_urls' => 'system.absolute_urls',
                 'param_sep' => 'system.param_sep',
@@ -3397,6 +3501,7 @@ return [
                     'cache_enabled' => 'plugins.admin.cache_enabled',
                     'route' => 'plugins.admin.route',
                     'logo_text' => 'plugins.admin.logo_text',
+                    'content_padding' => 'plugins.admin.content_padding',
                     'body_classes' => 'plugins.admin.body_classes',
                     'sidebar' => [
                         'activate' => 'plugins.admin.sidebar.activate',
@@ -3506,6 +3611,9 @@ return [
                     'built_in_css' => 'plugins.login.built_in_css',
                     'route' => 'plugins.login.route',
                     'redirect_after_login' => 'plugins.login.redirect_after_login',
+                    'route_forgot' => 'plugins.login.route_forgot',
+                    'route_reset' => 'plugins.login.route_reset',
+                    'route_profile' => 'plugins.login.route_profile',
                     'parent_acl' => 'plugins.login.parent_acl',
                     'protect_protected_page_media' => 'plugins.login.protect_protected_page_media',
                     'rememberme' => [
@@ -3536,7 +3644,12 @@ return [
                     'route_register' => 'plugins.login.route_register',
                     'registration_fields' => 'plugins.login.registration_fields',
                     'access_levels' => 'plugins.login.access_levels',
-                    'options' => 'plugins.login.options'
+                    'options' => 'plugins.login.options',
+                    'Security' => 'plugins.login.Security',
+                    'max_pw_resets_count' => 'plugins.login.max_pw_resets_count',
+                    'max_pw_resets_interval' => 'plugins.login.max_pw_resets_interval',
+                    'max_login_count' => 'plugins.login.max_login_count',
+                    'max_login_interval' => 'plugins.login.max_login_interval'
                 ],
                 'markdown-notices' => [
                     'enabled' => 'plugins.markdown-notices.enabled',

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/system/blueprints/config/system.yaml',
-    'modified' => 1492544750,
+    'modified' => 1493220537,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
@@ -15,12 +15,13 @@ return [
                     'fields' => [
                         'home.alias' => [
                             'type' => 'pages',
-                            'size' => 'medium',
+                            'size' => 'large',
                             'classes' => 'fancy',
                             'label' => 'PLUGIN_ADMIN.HOME_PAGE',
                             'show_all' => false,
                             'show_modular' => false,
                             'show_root' => false,
+                            'show_slug' => true,
                             'help' => 'PLUGIN_ADMIN.HOME_PAGE_HELP'
                         ],
                         'home.hide_in_urls' => [
@@ -1257,6 +1258,18 @@ return [
                             'validate' => [
                                 'type' => 'bool'
                             ]
+                        ],
+                        'username_regex' => [
+                            'type' => 'text',
+                            'size' => 'large',
+                            'label' => 'PLUGIN_ADMIN.USERNAME_REGEX',
+                            'help' => 'PLUGIN_ADMIN.USERNAME_REGEX_HELP'
+                        ],
+                        'pwd_regex' => [
+                            'type' => 'text',
+                            'size' => 'large',
+                            'label' => 'PLUGIN_ADMIN.PWD_REGEX',
+                            'help' => 'PLUGIN_ADMIN.PWD_REGEX_HELP'
                         ],
                         'wrapped_site' => [
                             'type' => 'toggle',

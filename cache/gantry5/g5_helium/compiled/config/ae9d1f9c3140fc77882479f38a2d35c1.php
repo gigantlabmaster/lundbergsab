@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Gantry\\Component\\Config\\CompiledConfig',
-    'timestamp' => 1492543769,
-    'checksum' => 'e48deb3123d081e51bbfbf54829b6a96',
+    'timestamp' => 1493220485,
+    'checksum' => '30593dd19bbb7a90718a71a3a7cdae9e',
     'files' => [
         'user/data/gantry5/themes/g5_helium/config/_error' => [
             'index' => [
@@ -29,83 +29,83 @@ return [
             ],
             'particles/branding' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/branding.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/content' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/content.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/contentarray' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentarray.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/contentcubes' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contentcubes.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/contenttabs' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/contenttabs.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/copyright' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/copyright.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/custom' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/custom.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/date' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/date.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/horizontalmenu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/horizontalmenu.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/login' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/login.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/logo' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/logo.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/menu.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/messages' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/messages.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/mobile-menu' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/mobile-menu.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/owlcarousel' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/owlcarousel.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/position' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/position.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/search' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/search.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/social' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/social.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/spacer' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/spacer.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'particles/totop' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/particles/totop.yaml',
-                'modified' => 1492540433
+                'modified' => 1492545121
             ],
             'styles' => [
                 'file' => 'user/data/gantry5/themes/g5_helium/config/default/styles.yaml',
@@ -202,7 +202,7 @@ return [
                 ],
                 'enabled' => '1',
                 'nav' => 'disable',
-                'dots' => 'enable',
+                'dots' => 'disable',
                 'autoplay' => 'disable',
                 'imageOverlay' => 'enable',
                 'class' => '',
@@ -243,7 +243,7 @@ return [
                 'url' => '',
                 'image' => '',
                 'svg' => '<?xml version="1.0" encoding="UTF-8"?>
-<svg width="164px" height="32px" viewBox="0 0 327 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="164px" height="72px" viewBox="0 0 327 62" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
     <title>Lundbergs_logo_tagline_center_grey_vect</title>
     <desc>Created with Sketch.</desc>
@@ -306,22 +306,16 @@ return [
                 'title' => '',
                 'items' => [
                     0 => [
-                        'icon' => 'fa fa-twitter fa-fw',
-                        'text' => '',
-                        'link' => 'http://www.twitter.com/rockettheme',
-                        'name' => 'Twitter'
-                    ],
-                    1 => [
                         'icon' => 'fa fa-facebook fa-fw',
                         'text' => '',
                         'link' => 'http://www.facebook.com/RocketTheme',
                         'name' => 'Facebook'
                     ],
-                    2 => [
-                        'icon' => 'fa fa-google-plus fa-fw',
+                    1 => [
+                        'icon' => 'fa fa-linkedin',
                         'text' => '',
-                        'link' => 'https://plus.google.com/+rockettheme',
-                        'name' => 'Google+'
+                        'link' => '',
+                        'name' => 'Linkedin'
                     ]
                 ]
             ],

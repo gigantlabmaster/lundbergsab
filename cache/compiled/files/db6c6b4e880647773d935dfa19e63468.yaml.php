@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/user/plugins/admin/blueprints.yaml',
-    'modified' => 1491210022,
+    'modified' => 1493220661,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.3.1',
+        'version' => '1.4.2',
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [
@@ -21,11 +21,11 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.2.0'
+                'version' => '>=1.2.4'
             ],
             1 => [
                 'name' => 'form',
-                'version' => '~2.0'
+                'version' => '>=2.4.0'
             ],
             2 => [
                 'name' => 'email',
@@ -83,6 +83,19 @@ return [
                     'size' => 'medium',
                     'placeholder' => 'Grav',
                     'help' => 'Text to display in place of the default Grav logo'
+                ],
+                'content_padding' => [
+                    'type' => 'toggle',
+                    'label' => 'PLUGIN_ADMIN.CONTENT_PADDING',
+                    'help' => 'PLUGIN_ADMIN.CONTENT_PADDING_HELP',
+                    'highlight' => 1,
+                    'options' => [
+                        1 => 'PLUGIN_ADMIN.YES',
+                        0 => 'PLUGIN_ADMIN.NO'
+                    ],
+                    'validate' => [
+                        'type' => 'bool'
+                    ]
                 ],
                 'body_classes' => [
                     'type' => 'text',

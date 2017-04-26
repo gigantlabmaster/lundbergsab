@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/system/languages/hu.yaml',
-    'modified' => 1492544750,
+    'modified' => 1493220537,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 cím: %1$s

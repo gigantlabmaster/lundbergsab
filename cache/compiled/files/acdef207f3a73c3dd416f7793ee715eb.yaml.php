@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/emil/Documents/code/lundbergsab/user/plugins/login/blueprints.yaml',
-    'modified' => 1491210036,
+    'modified' => 1493220652,
     'data' => [
         'name' => 'Login',
-        'version' => '2.2.1',
+        'version' => '2.3.0',
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',
         'author' => [
@@ -20,11 +20,11 @@ return [
         'dependencies' => [
             0 => [
                 'name' => 'grav',
-                'version' => '>=1.1.9'
+                'version' => '>=1.2.3'
             ],
             1 => [
                 'name' => 'form',
-                'version' => '~2.0'
+                'version' => '>=2.4.0'
             ],
             2 => [
                 'name' => 'email',
@@ -82,6 +82,24 @@ return [
                                     'label' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGIN',
                                     'help' => 'PLUGIN_LOGIN.REDIRECT_AFTER_LOGIN_HELP',
                                     'placeholder' => '/my-page'
+                                ],
+                                'route_forgot' => [
+                                    'type' => 'text',
+                                    'size' => 'medium',
+                                    'label' => 'PLUGIN_LOGIN.ROUTE_FORGOT',
+                                    'placeholder' => '/forgot_password'
+                                ],
+                                'route_reset' => [
+                                    'type' => 'text',
+                                    'size' => 'medium',
+                                    'label' => 'PLUGIN_LOGIN.ROUTE_RESET',
+                                    'placeholder' => '/reset_password'
+                                ],
+                                'route_profile' => [
+                                    'type' => 'text',
+                                    'size' => 'medium',
+                                    'label' => 'PLUGIN_LOGIN.ROUTE_PROFILE',
+                                    'placeholder' => '/user_profile'
                                 ],
                                 'parent_acl' => [
                                     'type' => 'toggle',
@@ -310,9 +328,58 @@ return [
                                             'options' => [
                                                 1 => 'PLUGIN_ADMIN.YES',
                                                 0 => 'PLUGIN_ADMIN.NO'
-                                            ],
-                                            'validate' => NULL
+                                            ]
                                         ]
+                                    ]
+                                ]
+                            ]
+                        ],
+                        'Security' => [
+                            'type' => 'tab',
+                            'title' => 'PLUGIN_LOGIN.SECURITY_TAB',
+                            'fields' => [
+                                'max_pw_resets_count' => [
+                                    'type' => 'number',
+                                    'size' => 'x-small',
+                                    'label' => 'PLUGIN_LOGIN.MAX_RESETS_COUNT',
+                                    'help' => 'PLUGIN_LOGIN.MAX_RESETS_COUNT_HELP',
+                                    'append' => 'PLUGIN_LOGIN.RESETS',
+                                    'validate' => [
+                                        'type' => 'number',
+                                        'min' => 0
+                                    ]
+                                ],
+                                'max_pw_resets_interval' => [
+                                    'type' => 'number',
+                                    'size' => 'x-small',
+                                    'label' => 'PLUGIN_LOGIN.MAX_RESETS_INTERVAL',
+                                    'help' => 'PLUGIN_LOGIN.MAX_RESETS_INTERVAL_HELP',
+                                    'append' => 'PLUGIN_LOGIN.SECONDS',
+                                    'validate' => [
+                                        'type' => 'number',
+                                        'min' => 1
+                                    ]
+                                ],
+                                'max_login_count' => [
+                                    'type' => 'number',
+                                    'size' => 'x-small',
+                                    'label' => 'PLUGIN_LOGIN.MAX_LOGINS_COUNT',
+                                    'help' => 'PLUGIN_LOGIN.MAX_LOGINS_COUNT_HELP',
+                                    'append' => 'PLUGIN_LOGIN.ATTEMPTS',
+                                    'validate' => [
+                                        'type' => 'number',
+                                        'min' => 0
+                                    ]
+                                ],
+                                'max_login_interval' => [
+                                    'type' => 'number',
+                                    'size' => 'x-small',
+                                    'label' => 'PLUGIN_LOGIN.MAX_LOGINS_INTERVAL',
+                                    'help' => 'PLUGIN_LOGIN.MAX_LOGINS_INTERVAL_HELP',
+                                    'append' => 'PLUGIN_LOGIN.SECONDS',
+                                    'validate' => [
+                                        'type' => 'number',
+                                        'min' => 1
                                     ]
                                 ]
                             ]

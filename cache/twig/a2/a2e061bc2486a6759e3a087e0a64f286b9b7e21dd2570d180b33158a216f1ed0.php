@@ -185,7 +185,12 @@ class __TwigTemplate_1b46f7dffbb5851320d3a1f3a34c6151aadca8dd4cd7db90f160376885f
         echo "                </div>
 
                 <div class=\"content-wrapper\">
-                    <div class=\"content-padding\">
+                    <div class=\"";
+        // line 49
+        if ($this->getAttribute($this->getAttribute($this->getAttribute((isset($context["config"]) ? $context["config"] : null), "plugins", array()), "admin", array()), "content_padding", array())) {
+            echo "content-padding";
+        }
+        echo "\">
                         ";
         // line 50
         $this->displayBlock('messages', $context, $blocks);
@@ -338,7 +343,7 @@ class __TwigTemplate_1b46f7dffbb5851320d3a1f3a34c6151aadca8dd4cd7db90f160376885f
 
     public function getDebugInfo()
     {
-        return array (  325 => 63,  320 => 58,  315 => 56,  310 => 54,  306 => 52,  303 => 51,  300 => 50,  295 => 45,  291 => 40,  288 => 39,  285 => 38,  272 => 89,  268 => 88,  261 => 84,  256 => 82,  247 => 76,  241 => 73,  225 => 66,  221 => 64,  218 => 63,  212 => 61,  210 => 60,  207 => 59,  205 => 58,  203 => 57,  201 => 56,  198 => 55,  196 => 54,  193 => 53,  191 => 50,  185 => 46,  183 => 45,  180 => 44,  178 => 43,  174 => 41,  172 => 38,  168 => 36,  165 => 35,  160 => 98,  158 => 35,  151 => 34,  148 => 33,  141 => 29,  138 => 28,  135 => 27,  128 => 23,  125 => 22,  122 => 21,  118 => 31,  115 => 27,  113 => 26,  110 => 25,  108 => 21,  102 => 19,  99 => 18,  95 => 16,  89 => 14,  86 => 13,  80 => 11,  74 => 9,  72 => 8,  59 => 7,  56 => 6,  53 => 5,  47 => 100,  45 => 33,  42 => 32,  40 => 5,  35 => 2,  31 => 1,);
+        return array (  330 => 63,  325 => 58,  320 => 56,  315 => 54,  311 => 52,  308 => 51,  305 => 50,  300 => 45,  296 => 40,  293 => 39,  290 => 38,  277 => 89,  273 => 88,  266 => 84,  261 => 82,  252 => 76,  246 => 73,  230 => 66,  226 => 64,  223 => 63,  217 => 61,  215 => 60,  212 => 59,  210 => 58,  208 => 57,  206 => 56,  203 => 55,  201 => 54,  198 => 53,  196 => 50,  190 => 49,  185 => 46,  183 => 45,  180 => 44,  178 => 43,  174 => 41,  172 => 38,  168 => 36,  165 => 35,  160 => 98,  158 => 35,  151 => 34,  148 => 33,  141 => 29,  138 => 28,  135 => 27,  128 => 23,  125 => 22,  122 => 21,  118 => 31,  115 => 27,  113 => 26,  110 => 25,  108 => 21,  102 => 19,  99 => 18,  95 => 16,  89 => 14,  86 => 13,  80 => 11,  74 => 9,  72 => 8,  59 => 7,  56 => 6,  53 => 5,  47 => 100,  45 => 33,  42 => 32,  40 => 5,  35 => 2,  31 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -399,7 +404,7 @@ class __TwigTemplate_1b46f7dffbb5851320d3a1f3a34c6151aadca8dd4cd7db90f160376885f
                 </div>
 
                 <div class=\"content-wrapper\">
-                    <div class=\"content-padding\">
+                    <div class=\"{% if config.plugins.admin.content_padding %}content-padding{% endif %}\">
                         {% block messages %}
                             {% include 'partials/messages.html.twig' %}
                         {% endblock %}
